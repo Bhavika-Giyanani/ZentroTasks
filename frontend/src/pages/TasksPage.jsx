@@ -23,7 +23,7 @@ const TasksPage = () => {
     fetchUsers().then((data) => {
       setUsers(data);
     });
-    socket = io("http://localhost:5000/");
+    socket = io("https://task-manager-327h.onrender.com");
     fetchTasks().then((data) => {
       const processedTasks = data.map((task) => ({
         ...task,

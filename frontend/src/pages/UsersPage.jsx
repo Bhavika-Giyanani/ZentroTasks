@@ -18,7 +18,7 @@ const UsersPage = () => {
   useEffect(() => {
     fetchUsers().then((data) => setUsers(data));
 
-    socket = io("http://localhost:5000/");
+    socket = io("https://task-manager-327h.onrender.com");
 
     socket.on("userCreated", (data) => {
       setUsers(data);

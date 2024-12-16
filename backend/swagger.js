@@ -5,7 +5,7 @@ const doc = {
     title: "Users And Tasks APIs",
     description: "API Documentation for user and tasks APIs",
   },
-  host: "localhost:5000",
+  host: "https://task-manager-327h.onrender.com",
 };
 
 const outputFile = "./swagger-output.json";
