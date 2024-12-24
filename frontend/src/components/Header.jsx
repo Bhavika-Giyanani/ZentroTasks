@@ -2,6 +2,7 @@ import { useState } from "react";
 import { Link, useLocation } from "react-router-dom";
 import "../styles/header.css";
 import "../App.css";
+import logo from "../assets/Innvoket.png";
 
 const Header = () => {
   const [navVisible, setNavVisible] = useState(false);
@@ -27,12 +28,7 @@ const Header = () => {
       }}
     >
       <div className="logo">
-        <img
-          src="https://tech.innvoket.com/static/logo-6bc4b4926f328b2b4a32a17d97eeb900.png"
-          width={"160px"}
-          height={"80px"}
-          alt="logo"
-        />
+        <img src={logo} width={"160px"} height={"80px"} alt="logo" />
       </div>
       <div className="nav-toggle material-symbols-outlined" onClick={toggleNav}>
         menu
