@@ -5,9 +5,9 @@
     "description": "API Documentation for user and tasks APIs",
     "version": "1.0.0"
   },
-  "host": "https://task-manager-327h.onrender.com",
+  "host": "task-manager-327h.onrender.com",
   "basePath": "/api",
-  "schemes": ["http"],
+  "schemes": ["https"],
   "paths": {
     "/users": {
       "post": {
