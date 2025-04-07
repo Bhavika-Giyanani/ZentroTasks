@@ -93,7 +93,11 @@ const Form = ({
                     <input
                       {...inputProps}
                       type={field.type}
-                      style={{ width: "100%" }}
+                      style={{
+                        width: "100%",
+                        background: "white",
+                        color: "black",
+                      }}
                     />
                   );
                 }
@@ -101,13 +105,25 @@ const Form = ({
                   return (
                     <textarea
                       {...inputProps}
-                      style={{ width: "100%", minHeight: "100px" }}
+                      style={{
+                        width: "100%",
+                        minHeight: "100px",
+                        backgroundColor: "white",
+                        color: "black",
+                      }}
                     />
                   );
                 }
                 if (field.type === "dropdown") {
                   return (
-                    <select {...inputProps} style={{ width: "100%" }}>
+                    <select
+                      {...inputProps}
+                      style={{
+                        width: "100%",
+                        backgroundColor: "white",
+                        text: "black",
+                      }}
+                    >
                       <option value="">Select</option>
                       {field.options.map((option, index) => (
                         <option
