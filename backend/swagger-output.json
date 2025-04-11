@@ -1,7 +1,7 @@
 {
   "swagger": "2.0",
   "info": {
-    "title": "Users And Tasks APIs",
+    "title": "Real Time Task Manager APIs",
     "description": "API Documentation for user and tasks APIs",
     "version": "1.0.0"
   },
