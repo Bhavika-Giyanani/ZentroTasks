@@ -1,8 +1,8 @@
 {
   "swagger": "2.0",
   "info": {
-    "title": "Real Time Task Manager APIs",
-    "description": "API Documentation for user and tasks APIs",
+    "title": "ZentroTasks",
+    "description": "API Documentation for user and tasks APIs of ZentroTasks",
     "version": "1.0.0"
   },
   "host": "task-manager-327h.onrender.com",

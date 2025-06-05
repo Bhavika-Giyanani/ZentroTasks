@@ -5,7 +5,7 @@ const Footer = () => {
 
   return (
     <footer className="parkinsans-font">
-      <p>&copy; Innvoket Tech {year.getFullYear()}</p>
+      <p>&copy; ZentroTasks {year.getFullYear()}</p>
     </footer>
   );
 };

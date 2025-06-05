@@ -2,10 +2,10 @@ const swaggerAutogen = require("swagger-autogen")();
 
 const doc = {
   info: {
-    title: "Users And Tasks APIs",
-    description: "API Documentation for user and tasks APIs",
+    title: "ZentroTasks",
+    description: "API Documentation for user and tasks APIs of ZentroTasks",
   },
-  host: "https://task-manager-327h.onrender.com",
+  host: "",
 };
 
 const outputFile = "./swagger-output.json";

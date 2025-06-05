@@ -30,7 +30,7 @@ nav p {
   font-size: 1rem;
 }
 
-@media (max-width: 1030px) {
+@media (max-width: 1027px) {
   nav {
     position: fixed;
     top: 0;
@@ -72,19 +72,22 @@ nav p {
   font-size: 1.5rem;
 }
 
-@media (max-width: 1030px) {
+@media (max-width: 1027px) {
   .nav-toggle {
     display: block;
   }
 }
 
-@media (min-width: 1030px) {
+@media (min-width: 1027px) {
   .close-btn {
     display: none;
   }
+  .nav-toggle {
+    display: none !important;
+  }
 }
 
-@media (max-width: 1030px) {
+@media (max-width: 1027px) {
   .close-btn {
     display: block;
   }
