@@ -1,6 +1,6 @@
 import axios from "axios";
 
-const API_URL = "https://task-manager-327h.onrender.com/api";
+const API_URL = "https://zentrotasks.onrender.com/api";
 
 export const fetchUsers = async () => {
   const response = await axios.get(`${API_URL}/users`);

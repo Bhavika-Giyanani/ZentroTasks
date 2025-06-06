@@ -5,7 +5,7 @@
     "description": "API Documentation for user and tasks APIs of ZentroTasks",
     "version": "1.0.0"
   },
-  "host": "task-manager-327h.onrender.com",
+  "host": "https://zentrotasks.onrender.com",
   "basePath": "/api",
   "schemes": ["https"],
   "paths": {

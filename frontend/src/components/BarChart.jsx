@@ -11,7 +11,7 @@ import {
 import { fetchNumberOfTasksPerUser } from "../services/api";
 import io from "socket.io-client";
 
-const socket = io("https://task-manager-327h.onrender.com");
+const socket = io("https://zentrotasks.onrender.com");
 
 const TaskBarChart = () => {
   const [taskData, setTaskData] = useState([]);

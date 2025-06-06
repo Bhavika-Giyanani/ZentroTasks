@@ -51,7 +51,7 @@ const server = http.createServer(app);
 const io = require("socket.io")(server, {
   pingTimeout: 60000,
   cors: {
-    origin: "https://task-manager-327h.onrender.com",
+    origin: "https://zentrotasks.onrender.com",
   },
 });
 

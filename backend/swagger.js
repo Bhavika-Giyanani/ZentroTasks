@@ -5,7 +5,7 @@ const doc = {
     title: "ZentroTasks",
     description: "API Documentation for user and tasks APIs of ZentroTasks",
   },
-  host: "",
+  host: "https://zentrotasks.onrender.com",
 };
 
 const outputFile = "./swagger-output.json";
